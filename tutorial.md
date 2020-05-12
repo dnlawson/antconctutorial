@@ -23,7 +23,7 @@
     4. [File view](#Applications-File-View)
     5. [Clusters/N-Grams](#Applications-ClustersN-Grams)
     6. [Collocates](#Applications-Collocates)
-    7. [Keyword list](Applications-Keyword-Lists)
+    7. [Keyword list](#Applications-Keyword-Lists)
 7. [What we do with the data?](#What-Do-We-Do-With-The-Data)
 8. [Acknolwedgements and further resources](#Acknolwedgements-and-Further-Resources)
 

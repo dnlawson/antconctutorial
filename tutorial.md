@@ -21,7 +21,7 @@
                     8. Exporting data from search operators
     3. [Concordance plots](#Applications-Concordance-Plots)
     4. [File view](#Applications-File-View)
-    5. [Clusters/N-Grams](#Applications-Clusters/N-Grams)
+    5. [Clusters/N-Grams](#Applications-ClustersN-Grams)
     6. [Collocates](#Applications-Collocates)
     7. [Keyword list](Applications-Keyword-Lists)
 7. [What we do with the data?](#What-Do-We-Do-With-The-Data)

@@ -42,9 +42,17 @@ In this tutorial, you will:
 
 ## Working with Plain Text Files
 
-    The first important thing to note about Antconc is that it will only work with plain-text files (.txt); this includes XML files that are saved as .txt files. This means that Antconc will not read .doc, .docx, or .pdf files - if you want to use data from these files, you will have to convert them to .txt files.
+The first important thing to note about Antconc is that it will only work with plain-text files (.txt); this includes XML files that are saved as .txt files. This means that Antconc will not read .doc, .docx, or .pdf files - if you want to use data from these files, you will have to convert them to .txt files.
+
 Plain-text editors include Notepad (on Windows; this is what I use) or TextEdit (on Mac). Other free text editor options with more advanced features include Notepad++ (Windows) and TextWrangler (Mac).
-In order to construct a corpus, you would have to go to where your data is stored and then copy and paste it into a .txt file. This process would then have to be repeated for each file. Corpus construction is a time-consuming task and an art in its own right. We will be using a premade corpus consisting of the constitutions/governing documents of different countries. This is a corpus that I have constructed on my own; as such, it is not the cleanest data ever (I DO INTEND TO GO BACK AND CLEAN THIS DATA). If you are interested in cleaning data, please see PLUG RJ’S OPEN REFINE TUTORIAL IF HE HAS ONE??? IF NOT, LINK TO THE PROGRAMMING HISTORIAN’S OPEN REFINE TUTORIAL.
+
+In order to construct a corpus, you would have to go to where your data is stored and then copy and paste it into a .txt file. This process would then have to be repeated for each file. Corpus construction is a time-consuming task and an art in its own right. We will be using a premade corpus consisting of the constitutions/governing documents of different countries. This is a corpus that I have constructed on my own; as such, it is not the cleanest data ever (I DO INTEND TO GO BACK AND CLEAN THIS DATA). If you are interested in cleaning data, please see Antconc's tutorial on data cleaning with OpenRefine [here](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine).
+
+## The Antconc Interface
+
+This is what Antconc looks like when it launches:
+
+![Screenshot](interface.png)
 
 
               

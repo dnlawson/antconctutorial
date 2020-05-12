@@ -78,7 +78,9 @@ If you would like to only upload certain files (which there is certainly reason 
 
 The word list is a simple, yet powerful tool. Navigate to the Word List tab on the top of the interface:
 
+![wordlist1](https://user-images.githubusercontent.com/57447342/81733958-a6306600-9447-11ea-86fb-e987180aa88e.png)
 
+Click start at the bottom of your screen, underneath the search box, without entering a search term:
 
 
 

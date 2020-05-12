@@ -70,6 +70,13 @@ You can store the documents wherever on your computer you want (I usually keep m
 
 This should load 16 files - you can see how many files have been opened in the Total No. box at the bottom left of your screen.
 
+![loadingcorpora](https://user-images.githubusercontent.com/57447342/81733890-8c8f1e80-9447-11ea-9961-e4ee90265963.png)
+
+If you would like to only upload certain files (which there is certainly reason to do on occasion), follow the same directions but click on Open File rather than Open Dir. You will have to add each file individually.
+
+## Applications: Word List
+
+The word list is a simple, yet powerful tool. Navigate to the Word List tab on the top of the interface:
 
 
 

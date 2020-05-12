@@ -8,4 +8,4 @@
 4. The Antconc interface
 5. Loading corpora
 6. Applications
-1. Word list
+  1. Word list

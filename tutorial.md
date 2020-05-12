@@ -82,6 +82,10 @@ The word list is a simple, yet powerful tool. Navigate to the Word List tab on t
 
 Click start at the bottom of your screen, underneath the search box, without entering a search term:
 
+![wordlist2](https://user-images.githubusercontent.com/57447342/81733962-a7619300-9447-11ea-8d13-a16f94398bbb.png)
+
+This will generate a list of every single word that appears in the corpus, along with the frequency of that word:
+
 
 
 

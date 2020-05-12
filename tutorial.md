@@ -11,7 +11,7 @@
     1. Word list
     2. Concordance
             1. Search operators
-                    1. *
+                1. *
                     2. ?
                     3. +
                     4. @

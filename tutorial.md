@@ -62,6 +62,6 @@ We want to open the documents that we will be evaluating. However, for this tuto
 
 Next, click Open Dir:
 
-
+![loadingcorpora3](https://user-images.githubusercontent.com/57447342/81733905-9022a580-9447-11ea-9b28-5dd0c91c902f.png)
 
               

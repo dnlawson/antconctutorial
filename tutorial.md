@@ -2,7 +2,7 @@
 
 ## Overview of Tutorial
 
-1. Introduction to corpus analysis and Antconc
+1. [Introduction to corpus analysis and Antconc](#Introduction-to-Corpus-Analysis-and-Antconc)
 2. Tutorial downloads
 3. Working with plain text files
 4. The Antconc interface

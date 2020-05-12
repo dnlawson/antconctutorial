@@ -64,4 +64,8 @@ Next, click Open Dir:
 
 ![loadingcorpora3](https://user-images.githubusercontent.com/57447342/81733905-9022a580-9447-11ea-9b28-5dd0c91c902f.png)
 
+You can store the documents wherever on your computer you want (I usually keep mine in a Bryn Mawr folder), but I would recommend storing them on your Desktop for this tutorial. Navigate to desktop on the menu, click on the Antconc Documents folder, and then hit OK. 
+
+![opendir](https://user-images.githubusercontent.com/57447342/81733908-91ec6900-9447-11ea-92e9-c5d421de3a88.png)
+
               

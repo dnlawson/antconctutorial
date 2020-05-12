@@ -8,7 +8,7 @@
 4. [The Antconc interface](#The-Antconc-Interface)
 5. [Loading corpora](#Loading-Corpora)
 6. Applications
-    1. [Word list](#Applications:-Word-List)
+    1. [Word list](#Applications-Word-List)
     2. Concordance
             1. Search operators
                     1. *

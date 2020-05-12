@@ -11,14 +11,14 @@
     1. [Word list](#Applications-Word-List)
     2. [Concordance](#Applications-Concordance)
            1. Search operators
-          1. *
-          2. ?
-          3. +
-          4. @
-          5. #
-          6. |
-          7. Combining search operators
-          8. Exporting data from search operators
+                1. *
+                2. ?
+                3. +
+                4. @
+                5. #
+                6. |
+                7. Combining search operators
+                8. Exporting data from search operators
     3. [Concordance plots](#Applications-Concordance-Plots)
     4. [File view](#Applications-File-View)
     5. [Clusters/N-Grams](#Applications-ClustersN-Grams)

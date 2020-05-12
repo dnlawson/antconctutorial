@@ -3,12 +3,12 @@
 ## Overview of Tutorial
 
 1. [Introduction to corpus analysis and Antconc](#Introduction-to-Corpus-Analysis-and-Antconc)
-2. Tutorial downloads
-3. Working with plain text files
-4. The Antconc interface
-5. Loading corpora
+2. [Tutorial downloads](#Tutorial-Downloads)
+3. [Working with plain text files](#Working-with-Plain-Text-Files)
+4. [The Antconc interface](#The-Antconc-Interface)
+5. [Loading corpora](#Loading-Corpora)
 6. Applications
-    1. Word list
+    1. [Word list](#Applications:-Word-List)
     2. Concordance
             1. Search operators
                     1. *

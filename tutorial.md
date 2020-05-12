@@ -58,6 +58,10 @@ This is what Antconc looks like when it launches:
 
 We want to open the documents that we will be evaluating. However, for this tutorial, rather than opening each file one by one, we want to open the entire directory. Click File at the top of the interface:
 
+![loadingcorpora2](https://user-images.githubusercontent.com/57447342/81733897-8e58e200-9447-11ea-9d08-096978f01ff3.png)
+
+Next, click Open Dir:
+
 
 
               

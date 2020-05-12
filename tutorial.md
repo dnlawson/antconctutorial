@@ -9,7 +9,7 @@
 5. [Loading corpora](#Loading-Corpora)
 6. Applications
     1. [Word list](#Applications-Word-List)
-    2. Concordance
+    2. [Concordance](#Applications-Concordance)
             1. Search operators
                     1. *
                     2. ?
@@ -19,13 +19,13 @@
                     6. |
                     7. Combining search operators
                     8. Exporting data from search operators
-    3. Concordance plots
-    4. File view
-    5. Clusters/N-Grams
-    6. Collocates
-    7. Keyword list
-7. What we do with the data?
-8. Acknolwedgements and further resources
+    3. [Concordance plots](#Applications-Concordance-Plots)
+    4. [File view](#Applications-File-View)
+    5. [Clusters/N-Grams](#Applications-Clusters/N-Grams)
+    6. [Collocates](#Applications-Collocates)
+    7. [Keyword list](Applications-Keyword-Lists)
+7. [What we do with the data?](#What-Do-We-Do-With-The-Data)
+8. [Acknolwedgements and further resources](#Acknolwedgements-and-Further-Resources)
 
 ## Introduction to Corpus Analysis and Antconc
 

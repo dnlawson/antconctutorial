@@ -52,7 +52,7 @@ In order to construct a corpus, you would have to go to where your data is store
 
 This is what Antconc looks like when it launches:
 
-![Screenshot](interface.png)
+![interface](interface.png)
 
 
               

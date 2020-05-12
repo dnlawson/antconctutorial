@@ -68,4 +68,12 @@ You can store the documents wherever on your computer you want (I usually keep m
 
 ![opendir](https://user-images.githubusercontent.com/57447342/81733908-91ec6900-9447-11ea-92e9-c5d421de3a88.png)
 
+This should load 16 files - you can see how many files have been opened in the Total No. box at the bottom left of your screen.
+
+
+
+
+
+
+
               

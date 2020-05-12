@@ -10,7 +10,7 @@
 6. Applications
     1. [Word list](#Applications-Word-List)
     2. [Concordance](#Applications-Concordance)
-           * Search operators
+    1. Search operators
                             1. *
                             2. ?
                             3. +

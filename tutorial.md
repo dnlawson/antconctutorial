@@ -122,29 +122,29 @@ We will talk about each of these more in depth.
 
 The "*" operator, which finds zero or more characters, can be particularly helpful in finding both the singular and plural forms of a noun. 
 
-In the Concordance tool, type qualit* into the search bar and hit Start. Your results should look like this:
+In the Concordance tool, type "qualit*" into the search bar and hit "Start". Your results should look like this:
 
 ![searchoperators3](https://user-images.githubusercontent.com/57447342/81733925-96b11d00-9447-11ea-90ac-0543d4648f31.png)
 
-Thus, we get the word quality (one character), but also qualities (three characters) and qualitative (five characters). These are each different words; as a result, they will be surrounded by different words and used in different ways.
+Thus, we get the word "quality" (one character), but also "qualities" (three characters) and "qualitative" (five characters). These are each different words; as a result, they will be surrounded by different words and used in different ways.
 
 #### The "Question Mark" Operator
 
-The "?" operator functions similarly to the * operator, but the "?" is more specific than * operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordances view.  This search will give you these results:
+The "?" operator functions similarly to the "*" operator, but the "?" is more specific than "*" operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordances view and hit "Start".  This search will give you these results:
 
 ![searchoperators4](https://user-images.githubusercontent.com/57447342/81733931-987ae080-9447-11ea-9362-d1a71f2c3955.png)
 
-On the other hand, enter "m?n" into the search bar in Concordances view and hit start. This search will give you these results:
+On the other hand, enter "m?n" into the search bar in Concordances view and hit "Start". This search will give you these results:
 
 ![searchoperators5](https://user-images.githubusercontent.com/57447342/81733932-9a44a400-9447-11ea-8087-1c2bce48f508.png)
 
 #### The "Plus" Operator:
 
-The + operator finds zero or one character. Enter "me+" into the search bar in the Concordances view and press start. Your results should look like this:
+The "+" operator finds zero or one character. Enter "me+" into the search bar in the Concordances view and press "Start". Your results should look like this:
 
 ![searchoperators6](https://user-images.githubusercontent.com/57447342/81733934-9b75d100-9447-11ea-80f8-0687028237c3.png)
 
-This search result finds all occurrences of "me" (zero characters) as well as any occurrences of "m"e and one other letter (for example, "men", "met" etc).
+This search result finds all occurrences of "me" (zero characters) as well as any occurrences of "me" and one other letter (for example, "men", "met" etc).
 
 #### The "At" Operator
 
@@ -168,7 +168,7 @@ You can mix and match search operators as needed.
 
 #### Exporting Data from Search Operators 
 
-Suppose that you found some really interesting results when you compared the words men and woman using one of the search operators and want to do further work with the data. You can export your results into a .txt file. First, make sure your data is sorted in a meaningful way that will be helpful. Then click on File:
+Suppose that you found some really interesting results when you compared the words "man" and "woman" using one of the search operators and want to do further work with the data. You can export your results into a .txt file. First, make sure your data is sorted in a meaningful way that will be helpful. Then click on File:
 
 ![searchoperators9](https://user-images.githubusercontent.com/57447342/81733946-9fa1ee80-9447-11ea-8b81-80c3bd6a85b8.png)
 
@@ -270,7 +270,7 @@ After you have loaded all your files, check the total number to ensure that you 
 
 In this example, we started with sixteen documents. Since we have to add the American documents (the Constitution and Declaration of Independence), we would expect fourteen documents, which we have. These will constitute our larger, reference corpus.
 
-Hit apply.
+Hit "Apply".
 
 ![keywordlists6](https://user-images.githubusercontent.com/57447342/81733861-8436e380-9447-11ea-9fc7-2e9aeddeed20.png)
 
@@ -279,7 +279,7 @@ After that, make sure to load the American corpus like we did at the beginning. 
 
 ![keywordlists7](https://user-images.githubusercontent.com/57447342/81733866-85681080-9447-11ea-9f42-8055f9bb1b4f.png)
 
-Don’t type anything into the search bar and hit start. Your results should look like this.
+Now hit the "Start" button one more time. Your results should look like this.
 
 ![keywordlists8](https://user-images.githubusercontent.com/57447342/81733870-8731d400-9447-11ea-8352-0bb9332dd029.png)
 
@@ -294,9 +294,10 @@ If you are interested in how Antconc uses statistics for this function, you can 
 As with many Digital Humanities projects, the most important question is what to do with the data once you have it. While computers are very good at identifying patterns and analyzing data, it is ultimately people that formulate the research questions, draw conclusions from the data, and make arguments about what it means. As such, it is worthwhile to think about how we use this data in order to make meaningful comparisons and ask useful questions.
 
 First, as mentioned earlier, it is important to ensure that corpora are representative. While corpus construction is not the most enjoyable task, ensuring that a corpus is representative is key to gaining meaningful results. 
-Second, do not discount minor words. Words like a, an, and the are some of the most common in the English language. As such, they tend to be overrepresented in topic modeling. While such words may seem unimportant on the surface, the differences between a definite and an indefinite article or places where not is used may prove illuminating. If some words simply do not work for your project, that is totally fine and you can create a stop-word list. However, it is not wise or methodologically sound simply to discount minor words because of their perceived unimportance. 
 
-Third, as in any research project, it is essential to ask what kinds of questions are meaningful based on the data and results. This may include thinking about why two corpora can or should be compared (for example, geographically? temporally?) or investigating peculiarities that arise from the data (for example, why the word women appears more often than the word men or why one word appears more frequently than others). At the end of the day, Antconc is only as powerful as the questions you ask about the data!
+Second, do not discount minor words. Words like "a", "an", and "the" are some of the most common in the English language. As such, they tend to be overrepresented in topic modeling. While such words may seem unimportant on the surface, the differences between a definite and an indefinite article or places where "not" is used may prove illuminating. If some words simply do not work for your project, that is totally fine and you can create a stop-word list. However, it is not advisable or methodologically sound simply to discount minor words because of their perceived unimportance. 
+
+Third, as in any research project, it is essential to ask what kinds of questions are meaningful based on the data and results. This may include thinking about why two corpora can or should be compared (for example, geographically? temporally?) or investigating peculiarities that arise from the data (for example, why the word "women" appears more often than the word "men" or why one word appears more frequently than others). At the end of the day, Antconc is only as powerful as the questions you ask about the data!
 
 In sum, it is important to think about:
 * Why two corpora should be compared

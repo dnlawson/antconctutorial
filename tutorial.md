@@ -10,13 +10,13 @@
 6. Applications
     1. [Word list](#Applications-Word-List)
     2. [Concordance](#Applications-Concordance)
-        1. Search operators
+        1. [Search operators](#Search-Operators)
               1. ["*"](#The-Star-Operator-Wildcard)
               2. ["?"](#The-Question-Mark-Operator)
-              3. "+"
-              4. "@"
-              5. "#"
-              6. "|"
+              3. ["+"](#The-Plus-Operator)
+              4. ["@"](#The-At-Operator)
+              5. ["#"](#The-Pound-Operator)
+              6. ["|"](#The-Or-Operator)
               7. [Combining search operators](#Combining-operators)
               8. [Exporting data from search operators](#Exporting-Data-from-Search-Operators)
     3. [Concordance plots](#Applications-Concordance-Plots)
@@ -118,7 +118,7 @@ Search operators allow you to search in ways that are not possible with the othe
 
 We will talk about each of these more in depth.
 
-#### The Star Operator (Wildcard)
+#### The "Star" Operator (Wildcard)
 
 The * operator, which finds zero or more characters, can be particularly helpful in finding both the singular and plural forms of a noun. 
 

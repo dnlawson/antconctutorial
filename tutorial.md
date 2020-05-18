@@ -29,9 +29,11 @@
 
 ## Introduction to Corpus Analysis and Antconc
 
-Corpus analysis is a form of text analysis that allows us to compare textual objects “from a distance.” In many ways, corpus analysis is the opposite of a close reading. In a close reading, a small portion of text is looked at and evaluated at a minute level; in Classics, this often means paying special attention to the specific forms of words or meter. In sum, every bit of a small chunk of text is picked apart in detail. On the other hand, corpus analysis focuses instead on a much larger amount of text; for example, one author’s entire literary corpus. The focus here is instead on finding large-scale patterns, such as common grammatical usages or frequently used words. Corpus analysis is incredibly helpful in distinguishing patterns that the human eye might not pick up on, but that could raise important research questions about the text. However, corpus analysis is also a good way to confirm intuitions or gut instincts that we have about a text. For example, I took a course on Plato & Thucydides my first semester of grad school. We read Book 6 of Thucydides, in which the Athenians are debating whether or not to aid the Sicilians who have asked for their help. The book is presented as a series of speeches between Alcibiades and Nicias. One of my classmates asked whether or not the increased complexity of Nicias’ grammar and syntax was a reflection of his cautious and indecisive character. We read an article, written in the 70s, that argued exactly that (for those interested, the article is *Stylistic characterization in Thucydides: Nicias and Alcibiades* by Daniel Tompkins. While this article was published well before Digital Humanities became an established discipline, the author used many techniques that are now commonplace in Digital Humanities; in fact, Antconc would have been particularly useful for this kind of project.
+Corpus analysis is a form of text analysis that allows us to compare textual objects “from a distance.” In many ways, corpus analysis is the opposite of a close reading. In a close reading, a small portion of text is looked at and evaluated at a minute level; in Classics, this often means paying special attention to the specific forms of words or meter. In sum, every bit of a small chunk of text is picked apart in detail. On the other hand, corpus analysis focuses instead on a much larger amount of text; for example, one author’s entire literary corpus. The focus here is instead on finding large-scale patterns, such as common grammatical usages or frequently used words. 
 
-Antconc is a standalone software package for the linguistic analysis of texts. It offers more features than a tool like Voyant, but is much simpler than coding in R or Python. It is free to download and use and runs on Windows, Mac OS, and Linux. The creator, Anthony Laurence, is excellent at maintaining the software, making it a powerful tool for any level of experience.
+Corpus analysis is incredibly helpful in distinguishing patterns that the human eye might not pick up on, but that could raise important research questions about the text. However, corpus analysis is also a good way to confirm intuitions or gut instincts that we have about a text. For example, I took a course on Plato & Thucydides my first semester of grad school. We read Book 6 of Thucydides, in which the Athenians are debating whether or not to aid the Sicilians who have asked for their help. The book is presented as a series of speeches between Alcibiades and Nicias. One of my classmates asked whether or not the increased complexity of Nicias’ grammar and syntax was a reflection of his cautious and indecisive character. We read an article, written in the 70s, that argued exactly that (for those interested, the article is *Stylistic characterization in Thucydides: Nicias and Alcibiades* by Daniel Tompkins. While this article was published well before Digital Humanities became an established discipline, the author used many techniques that are now commonplace in Digital Humanities; in fact, Antconc would have been particularly useful for this kind of project.
+
+Antconc is a standalone software package for the linguistic analysis of texts. It offers more features than a tool like Voyant, but is much simpler than coding in R or Python. It is free to download and use and runs on all operating systems (Windows, Mac OS, and Linux). The creator, Anthony Laurence, has done an excellent job of maintaining the software, making it a powerful tool for any level of experience.
 
 ## Tutorial Downloads
 
@@ -54,11 +56,11 @@ This is what Antconc looks like when it launches:
 
 ## Loading Corpora
 
-We want to open the documents that we will be evaluating. However, for this tutorial, rather than opening each file one by one, we want to open the entire directory. Click File at the top of the interface:
+We want to open the documents that we will be evaluating. However, for this tutorial, rather than opening each file one by one, we want to open the entire directory. Click "File   the top of the interface:
 
 ![loadingcorpora2](https://user-images.githubusercontent.com/57447342/81733897-8e58e200-9447-11ea-9d08-096978f01ff3.png)
 
-Next, click Open Dir:
+Next, click "pen Dir":
 
 ![loadingcorpora3](https://user-images.githubusercontent.com/57447342/81733905-9022a580-9447-11ea-9b28-5dd0c91c902f.png)
 

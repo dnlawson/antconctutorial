@@ -186,7 +186,7 @@ The file will then be saved as a .txt file, which opens up the door for further 
 
 ## Applications: Concordance Plots
 
-Concordance plots will calculate how often a word appears in each file from the directory and then output a graph showing each place that word appears in the document. Make sure you have clicked Concordance Plots at the top of your screen. Enter a word in the search box and hit start.
+Concordance plots will calculate how often a word appears in each file from the directory and then output a graph showing each place that word appears in the document. Make sure you have clicked Concordance Plots at the top of your screen. Enter "law" in the search bar and hit "Start".
 
 ![concordanceplots](https://user-images.githubusercontent.com/57447342/81733801-6f5a5000-9447-11ea-9c00-c3155f209a8d.png)
 
@@ -240,15 +240,15 @@ Like concordance, you can decide what parameters you want your data sorted by.
 
 ![collocates3](https://user-images.githubusercontent.com/57447342/81733721-5356ae80-9447-11ea-94a3-9559deefb1dd.png)
 
-You can sort by word, which alphabetizes the list of words; by word end, which alphabetizes the list of words by the last letter of the word; by freq, which orders the list by the total number of times the word occurs; freq(L) and freq(R), which orders the list of words by how often the word appears to the left of and to the right of the keyword respectively; and by stat, which DOES SOMETHING.
+You can sort by word, which alphabetizes the list of words; by word end, which alphabetizes the list of words by the last letter of the word; by freq, which orders the list by the total number of times the word occurs; freq(L) and freq(R), which orders the list of words by how often the word appears to the left of and to the right of the keyword respectively; and by stat, which "measures how 'related' the search term and the collocate are" (definition from page 6 of Laurence' Anthony's [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf).
 
 ## Applications: Keyword Lists
 
 The keyword list is arguably Antconc’s most powerful and important function because it allows one corpus to be compared to a larger, reference corpus. It is also by far the most complex tool that Antconc offers. 
 
-It is important to think about what your research corpus should or could look like. In this example, options might be comparing two constitutions. However, that is a rather small research corpus. Other examples could include comparing different geographical areas or comparing the governing documents of one country across time. Once again, it is important to remember that corpus construction is a sub-field in its own right. While we will be comparing North American constitutions to European constitutions, it is worthwhile to think about how and why we construct and define corpora in certain ways. 
+It is important to think about what your research corpus should or could look like. In this example, we will compare American documents with non-American documents. Other examples could include comparing different geographical areas or comparing the governing documents of one ocuntry across time. Once again, it is important to remember that corpus construction is a sub-field in its own right, and it is worthwhile to think about how and why we construct and define corpora in certain ways. 
 
-Select Tool Preferences at the top of your screen.
+First, we will add our reference corpus. Select Tool Preferences at the top of your screen.
 
 ![keywordlist1](https://user-images.githubusercontent.com/57447342/81733839-7c773f00-9447-11ea-8369-c2b8e5b5ced9.png)
 
@@ -256,46 +256,44 @@ Click on "Keyword List" in the left-hand column.
 
 ![keywordlists2](https://user-images.githubusercontent.com/57447342/81733842-7e410280-9447-11ea-81c2-bc9fe30cdefe.png)
 
-You can either add by directory or by file. I added by file. Click add file.
+Click add file.
 
 ![keywordlists3](https://user-images.githubusercontent.com/57447342/81733850-800ac600-9447-11ea-84b4-dcc13bb0a126.png)
 
-Navigate to your desktop and select the file you would like to open and then click open. For this example, let’s load all the non-American files.
+Navigate to your desktop and select the file you would like to open and then click "Open". For this example, let’s load the first non-American file, canadianconstitution.
 
 ![keywordlists4](https://user-images.githubusercontent.com/57447342/81733853-813bf300-9447-11ea-8a53-a57b0f14e27d.png)
 
-After you have loaded all your files, check the total number to ensure that you have all your files and click load.
+We will have to do this for each file in our reference corpus. After you have loaded all your files, check the total number to ensure that you have all your files. In this example, we started with sixteen documents. Since we have to add our research corpus (the Constitution and Declaration of Independence) separately, we would expect fourteen documents here, which we have. These will constitute our larger, reference corpus. Click "Load".
 
 ![keywordlists5](https://user-images.githubusercontent.com/57447342/81733856-826d2000-9447-11ea-8ff5-b66dca535edd.png)
-
-In this example, we started with sixteen documents. Since we have to add the American documents (the Constitution and Declaration of Independence), we would expect fourteen documents, which we have. These will constitute our larger, reference corpus.
 
 Hit "Apply".
 
 ![keywordlists6](https://user-images.githubusercontent.com/57447342/81733861-8436e380-9447-11ea-9fc7-2e9aeddeed20.png)
 
-These documents will now show up on the left side of the interface - that’s normal.
-After that, make sure to load the American corpus like we did at the beginning. After hitting apply and loading the American corpus, your interface should look like this.
+These documents will now show up on the left side of the interface like they would if we loaded them as we did earlier in this tutorial - that’s normal.
+Next, make sure to load the American corpus like we did at the beginning. After hitting "Apply" and loading the American corpus, your interface should look like this.
 
 ![keywordlists7](https://user-images.githubusercontent.com/57447342/81733866-85681080-9447-11ea-9f42-8055f9bb1b4f.png)
 
-Now hit the "Start" button one more time. Your results should look like this.
+Now hit the "Start" button one more time. Your results should look like this:
 
 ![keywordlists8](https://user-images.githubusercontent.com/57447342/81733870-8731d400-9447-11ea-8352-0bb9332dd029.png)
 
-In simple terms, this is a list of words that appears more in your research corpus than in the corpora it is being compared to, that is words that are statistically more unexpected in your corpus when compared with the reference. Antconc establishes the statistical significance by using a concept called “keyness.” Keyness is “the frequency of a word in the text when compared with its frequency in a reference corpus, ‘such that the statistical probability as computed by an appropriate procedure is smaller than or equal to a p value specified by the user’” (definition from the Programming Historian). The automatic Antconc setting is that words with a p-value less than or equal to 0.05 will be displayed, which is the norm for establishing statistical significance; however, if you want, you can change the p-value in the Tool Preferences > Keyword List, along with other statistical elements. 
+In simple terms, this is a list of words that appears more in your research corpus than in the corpora it is being compared to, that is words that are statistically more unexpected in your corpus when compared with the reference. Antconc establishes the statistical significance by using a concept called “keyness.” Keyness is “the frequency of a word in the text when compared with its frequency in a reference corpus, ‘such that the statistical probability as computed by an appropriate procedure is smaller than or equal to a p value specified by the user’” (definition from the Programming Historian). The automatic Antconc setting is that words with a p-value less than or equal to 0.05 will be displayed, which is the norm for establishing statistical significance; however, if you want, you can change the p-value in the Tool Preferences > Keyword List, along with other statistical elements like stastic threshold, effect size meansure, and effect size threshold.
 
 ![keywordlists9](https://user-images.githubusercontent.com/57447342/81733882-8ac55b00-9447-11ea-895e-e457e5d20ef1.png)
 
-If you are interested in how Antconc uses statistics for this function, you can read more in the section on keyness on page 7 in Laurence Anthony’s [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf).
+I'm not a staistician, so if you are interested in how Antconc uses statistics for this function, you can read more in the section on keyness on page 7 in Laurence Anthony’s [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf).
 
 ## What do we do with the data?
 
 As with many Digital Humanities projects, the most important question is what to do with the data once you have it. While computers are very good at identifying patterns and analyzing data, it is ultimately people that formulate the research questions, draw conclusions from the data, and make arguments about what it means. As such, it is worthwhile to think about how we use this data in order to make meaningful comparisons and ask useful questions.
 
-First, as mentioned earlier, it is important to ensure that corpora are representative. While corpus construction is not the most enjoyable task, ensuring that a corpus is representative is key to gaining meaningful results. 
+First, as mentioned earlier, it is important to ensure that corpora are representative. While corpus construction is not the most enjoyable task, ensuring that a corpus is representative is key to gaining meaningful results. It is beyond the scope of this tutorial to talk about how to construct a representative corpus, but if you are interested see [here](https://academic.oup.com/dsh/article-abstract/8/4/243/928942) and [here](https://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1)(thank you to the Programming Historian for the references!). 
 
-Second, do not discount minor words. Words like "a", "an", and "the" are some of the most common in the English language. As such, they tend to be overrepresented in topic modeling. While such words may seem unimportant on the surface, the differences between a definite and an indefinite article or places where "not" is used may prove illuminating. If some words simply do not work for your project, that is totally fine and you can create a stop-word list. However, it is not advisable or methodologically sound simply to discount minor words because of their perceived unimportance. 
+Second, do not discount minor words. Words like "a", "an", and "the" are some of the most common in the English language. As such, they tend to be overrepresented in topic modeling ("an unsupervised machine learning technique that’s capable of scanning a set of documents, detecting word and phrase patterns within them, and automatically clustering word groups and similar expressions that best characterize a set of documents" - definition from [here](https://monkeylearn.com/blog/introduction-to-topic-modeling/). While such words may seem unimportant on the surface, the differences between a definite and an indefinite article or places where "not" is used may prove illuminating, and computers are very good at picking up patterns, especially high frequency patterns that might overwhelm someone attempting to track them by hand. However, it is possible to create a stopword list if necessary, although it is not advisable simply to discount minor words because of their perceived unimportance. Computers are very good at picking up patterns, especially high frequency patterns that might overwhelm someone attempting to track them by hand. 
 
 Third, as in any research project, it is essential to ask what kinds of questions are meaningful based on the data and results. This may include thinking about why two corpora can or should be compared (for example, geographically? temporally?) or investigating peculiarities that arise from the data (for example, why the word "women" appears more often than the word "men" or why one word appears more frequently than others). At the end of the day, Antconc is only as powerful as the questions you ask about the data!
 

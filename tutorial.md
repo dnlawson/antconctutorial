@@ -223,6 +223,10 @@ The word will appear in the box:
 
 You will have to do this for each word on your stoplist. Once you have completed your list, click "Apply":
 
+![stopwordlist7](https://user-images.githubusercontent.com/57447342/82180474-7513c380-9895-11ea-8074-665ce285cf0b.png)
+
+It is important to think about whether or not a stopword list should be used. If you decide to use one, it is also important to think critically about what words should be put on your stopwrod list. If you are interested, [here](http://www.lextek.com/manuals/onix/stopwords2.html) an example, the Buckley-Salton Stoplist
+
 ## Applications: Concordance Plots
 
 Concordance plots will calculate how often a word appears in each file from the directory and then output a graph showing each place that word appears in the document. Make sure you have clicked Concordance Plots at the top of the interface. Enter "law" in the search bar and hit "Start".

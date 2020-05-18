@@ -199,6 +199,30 @@ The file will then be saved as a .txt file, which opens up the door for further 
 
 Suppose that you didn't want to see words like "a", "an", or "the" when looking at KWICs. Antconc allows you to create a stopword ist. Antconc will remove any words on your stopword list from the search results. To create a stopword list, click on "Tool Preferences" at the top of the interface.
 
+![stopwordlist1](https://user-images.githubusercontent.com/57447342/82180025-86a89b80-9894-11ea-8507-1ab6d1bc239f.png)
+
+Then click on "Word List" at the left of the interface:
+
+![stopwordlist2](https://user-images.githubusercontent.com/57447342/82180032-88725f00-9894-11ea-8070-315c331cee2d.png)
+
+Under "Word List Range", click "Use stoplist below":
+
+![stopwordlist3](https://user-images.githubusercontent.com/57447342/82180034-8a3c2280-9894-11ea-9173-a63d811c2cf2.png)
+
+Type a word into the "Add Word" box; here, I used "the".
+
+![stopwordlist4](https://user-images.githubusercontent.com/57447342/82180037-8b6d4f80-9894-11ea-87d2-3d3141c8021f.png)
+
+Click "Add":
+
+![stopwordlist5](https://user-images.githubusercontent.com/57447342/82180039-8dcfa980-9894-11ea-9916-e4c7f40749da.png)
+
+The word will appear in the box:
+
+![stopwordlist6](https://user-images.githubusercontent.com/57447342/82180043-8f00d680-9894-11ea-9b8f-81971503c071.png)
+
+You will have to do this for each word on your stoplist. Once you have completed your list, click "Apply":
+
 ## Applications: Concordance Plots
 
 Concordance plots will calculate how often a word appears in each file from the directory and then output a graph showing each place that word appears in the document. Make sure you have clicked Concordance Plots at the top of the interface. Enter "law" in the search bar and hit "Start".

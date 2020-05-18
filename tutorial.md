@@ -120,7 +120,7 @@ We will talk about each of these more in depth.
 
 #### The "Star" Operator (Wildcard)
 
-The "*" operator, which finds zero or more characters, can be particularly helpful in finding both the singular and plural forms of a noun. 
+The "* " operator, which finds zero or more characters, can be particularly helpful in finding both the singular and plural forms of a noun. 
 
 In the Concordance tool, type "qualit*" into the search bar and hit "Start". Your results should look like this:
 
@@ -130,7 +130,7 @@ Thus, we get the word "quality" (one character), but also "qualities" (three cha
 
 #### The "Question Mark" Operator
 
-The "?" operator functions similarly to the "*" operator, but the "?" is more specific than "*" operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordances view and hit "Start".  This search will give you these results:
+The "?" operator functions similarly to the "* " operator, but the "?" is more specific than "* " operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordances view and hit "Start".  This search will give you these results:
 
 ![searchoperators4](https://user-images.githubusercontent.com/57447342/81733931-987ae080-9447-11ea-9362-d1a71f2c3955.png)
 

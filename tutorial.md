@@ -12,7 +12,7 @@
     2. [Concordance](#Applications-Concordance)
         1. Search operators
               1. *
-              2. "?"
+              2. ["?"](#the-"?"-operator)
               3. "+"
               4. "@"
               5. "#"

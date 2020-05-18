@@ -118,7 +118,7 @@ Search operators offer more flexibility in searches for KWICs than the Concordan
 
 ![searchoperators2](https://user-images.githubusercontent.com/57447342/81733919-94e75980-9447-11ea-8f0d-36e4b720232e.png)
 
-We will talk about each of these more in depth.
+All of the search operators are a more specific application of the Concordance tool. We will talk about each of these more in depth.
 
 #### The "Star" Operator (Wildcard)
 
@@ -132,17 +132,17 @@ Thus, we get the word "quality" (one character in addition to the stem qualit), 
 
 #### The "Question Mark" Operator
 
-The "?" operator functions similarly to the * operator, but the "?" is more specific than * operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordances view and hit "Start".  This search will give you these results:
+The "?" operator functions similarly to the * operator, but the "?" is more specific than * operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordance tool and hit "Start".  This search will give you these results:
 
 ![searchoperators4](https://user-images.githubusercontent.com/57447342/81733931-987ae080-9447-11ea-9362-d1a71f2c3955.png)
 
-On the other hand, enter "m?n" into the search bar in Concordances view and hit "Start". This search will give you these results:
+On the other hand, enter "m?n" into the search bar in Concordance tool and hit "Start". This search will give you these results:
 
 ![searchoperators5](https://user-images.githubusercontent.com/57447342/81733932-9a44a400-9447-11ea-8087-1c2bce48f508.png)
 
 #### The "Plus" Operator:
 
-The "+" operator finds zero or one character. Enter "me+" into the search bar in the Concordances view and press "Start". Your results should look like this:
+The "+" operator finds zero or one character. Enter "me+" into the search bar in the Concordance tool and press "Start". Your results should look like this:
 
 ![searchoperators6](https://user-images.githubusercontent.com/57447342/81733934-9b75d100-9447-11ea-80f8-0687028237c3.png)
 
@@ -150,13 +150,13 @@ This search result finds all occurrences of "me" (zero characters) as well as an
 
 #### The "At" Operator
 
-The "@" operator allows you to account for words that may appear between two words that you are interested in. This is easiest to see in an example. You can put as many "@" operators as you like; however, if you put one, it will be equivalent to the "#" operator, which is in the next section. In this example, we will input the phrase "is@@president" and hit "Start". This will give us any phrases in the form of "is any word #1 any word #2 president". The output will look like this:
+The "@" operator allows you to account for words that may appear between two words that you are interested in. This is easiest to see in an example. You can put as many "@" operators as you like; however, if you put one, it will be equivalent to the "#" operator, which is in the next section. In this example, we will input the phrase "is@@president" in the Concordance tool and hit "Start". This will give us any phrases in the form of "is any word #1 any word #2 president". The output will look like this:
 
 ![searchoperators13](https://user-images.githubusercontent.com/57447342/82178007-e0f32d80-988f-11ea-91a1-0ecac89123d1.png)
 
 #### The "Pound" Operator
 
-The "#" operator functions like the "@" operator, but can only be used once. Enter "is#president" and hit "Start". The output will look like this:
+The "#" operator functions like the "@" operator, but can only be used once. Enter "is#president" in the Concordance tool and hit "Start". The output will look like this:
 
 ![searchoperators14](https://user-images.githubusercontent.com/57447342/82178010-e2bcf100-988f-11ea-8908-234324dc76b3.png)
 
@@ -170,7 +170,7 @@ This shows you every occurence of either "men" or "women", a total of 75 (found 
 
 #### Combining Operators
 
-Suppose you wanted to find all the instances of "man" or "woman" or "men" or "women". Good news: Antconc can do that by combining operators! Try entering "m?n|wom?n" into the search bar in the Concordances view and pressing "Start". Your results should look like this:
+Suppose you wanted to find all the instances of "man" or "woman" or "men" or "women". Good news: Antconc can do that by combining operators! Try entering "m?n|wom?n" into the search bar in the Concordances tool and pressing "Start". Your results should look like this:
 
 ![searchoperators8](https://user-images.githubusercontent.com/57447342/81733942-9e70c180-9447-11ea-9c6b-ab39ebe637bc.png)
 
@@ -178,11 +178,11 @@ You can mix and match search operators as needed.
 
 #### Exporting Data from Search Operators 
 
-Suppose that you found some really interesting results when you compared the words "man" and "woman" using one of the search operators and want to do further work with the data. You can export your results into a .txt file. First, make sure your data is sorted in a meaningful way that will be helpful. In this example, it would probably be most helpful to have the words around your KWIC, as you might want to investigate why one appears more frequently than the other. Then click on File:
+Suppose that you found some really interesting results when you compared the words "man" and "woman" using one of the search operators and want to do further work with the data. You can export your results into a .txt file. First, make sure your data is sorted in a meaningful way that will be helpful, using the parameters talked about in the Applications: Concordance section above. Then click on "File":
 
 ![searchoperators9](https://user-images.githubusercontent.com/57447342/81733946-9fa1ee80-9447-11ea-8b81-80c3bd6a85b8.png)
 
-Click on Save Output:
+Click on "Save Output":
 
 ![searchoperators12](https://user-images.githubusercontent.com/57447342/81733957-a4ff3900-9447-11ea-9019-b72d3d6e28f2.png)
 
@@ -196,11 +196,11 @@ The file will then be saved as a .txt file, which opens up the door for further 
 
 ## Applications: Concordance Plots
 
-Concordance plots will calculate how often a word appears in each file from the directory and then output a graph showing each place that word appears in the document. Make sure you have clicked Concordance Plots at the top of your screen. Enter "law" in the search bar and hit "Start".
+Concordance plots will calculate how often a word appears in each file from the directory and then output a graph showing each place that word appears in the document. Make sure you have clicked Concordance Plots at the top of the interface. Enter "law" in the search bar and hit "Start".
 
 ![concordanceplots](https://user-images.githubusercontent.com/57447342/82176133-b94d9680-988a-11ea-85de-751b7ea5cd09.png)
 
-This tool tends to be more helpful for literature, particularly for tracking certain characters or phrases, although the visualizing measures certainly don't hurt in this study. The ability to visually see where certain words appear most frequently can reveal particularly fruitful places to focus your attention on. This data can be exported, although it exports as a .ps file.
+This tool tends to be more helpful for literature, particularly for tracking certain characters or phrases, although the visualizing measures certainly don't hurt in this study. The ability to visually see where certain words appear most frequently can reveal particularly fruitful places to focus your attention. This data can be exported following the steps outlined in the Exporting Data from Search Operators section above, although it exports as a .ps file.
 
 ## Applications: File View
 
@@ -220,8 +220,6 @@ File view allows for more detail and contextualization than is afforded by, for 
 
 ## Applications: Clusters/N-Grams
 
-The primary difference between clusters and N-Grams, besides the variable length, is that clusters take a specific search term, while N-Grams do not take a search term and instead return any string of words of the length you requested.
-
 The "clusters" view shows words that frequently appear together. For example, say we wanted to know what words commonly appear with the word shall. Make sure you click Clusters/N-Grams tab at the top of the interface. Enter shall into the search box and hit start.
 
 ![clusters](https://user-images.githubusercontent.com/57447342/81733685-46d25600-9447-11ea-9616-c0aac990dd81.png)
@@ -238,11 +236,13 @@ Hit start (Antconc will not allow you to enter a search term). Depending on how 
 
 ![clusters4](https://user-images.githubusercontent.com/57447342/81733700-4d60cd80-9447-11ea-98bb-e00672a7d2b9.png)
 
+The primary difference between clusters and N-Grams, besides the variable length, is that clusters take a specific search term, while N-Grams do not take a search term and instead return any string of words of the length you requested.
+
 ## Applications: Collocates
 
 Clusters and collocates may seem to be the same thing. They are, indeed, very similar; however, clusters show words that definitely appear together, while collocates shows words that are statistically likely to appear next to one another.
 
-The collocates view gives you a list of the words that are most likely to appear with your keyword. Click Collocates at the top of your screen. Enter shall and hit start. Antconc will tell you that you need to generate a word list first. We generated one earlier in this tutorial, so Antconc will automatically use that one. However, if you are using Antconc and didn't generate a word list first, hit okay and it will generate one for you.
+The collocates view gives you a list of the words that are most likely to appear with your keyword. Click Collocates at the top of the interface. Enter "shall" and hit "Start". Antconc will tell you that you need to generate a word list first. We generated one earlier in this tutorial, so Antconc will automatically use that one. However, if you are using Antconc and didn't generate a word list first, hit okay and it will generate one for you.
 
 ![collocates1](https://user-images.githubusercontent.com/57447342/81733710-4f2a9100-9447-11ea-91c5-8c11a4f352ba.png)
 
@@ -252,7 +252,7 @@ Like concordance, you can decide what parameters you want your data sorted by.
 
 ![collocates3](https://user-images.githubusercontent.com/57447342/81733721-5356ae80-9447-11ea-94a3-9559deefb1dd.png)
 
-You can sort by word, which alphabetizes the list of words; by word end, which alphabetizes the list of words by the last letter of the word; by freq, which orders the list by the total number of times the word occurs; freq(L) and freq(R), which orders the list of words by how often the word appears to the left of and to the right of the keyword respectively; and by stat, which "measures how 'related' the search term and the collocate are" (definition from page 6 of Laurence' Anthony's [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf).
+You can sort by "word", which alphabetizes the list of words; by "word end", which alphabetizes the list of words by the last letter of the word; by "freq", which orders the list by the total number of times the word occurs; "freq(L") and "freq(R)", which orders the list of words by how often the word appears to the left of and to the right of the keyword respectively; and by "stat", which "measures how 'related' the search term and the collocate are" (definition from page 6 of Laurence' Anthony's [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf).
 
 ## Applications: Keyword Lists
 
@@ -260,7 +260,7 @@ The keyword list is arguably Antconc’s most powerful and important function be
 
 It is important to think about what your research corpus should or could look like. In this example, we will compare American documents with non-American documents. Other examples could include comparing different geographical areas or comparing the governing documents of one ocuntry across time. Once again, it is important to remember that corpus construction is a sub-field in its own right, and it is worthwhile to think about how and why we construct and define corpora in certain ways. 
 
-First, we will add our reference corpus. Select Tool Preferences at the top of your screen.
+First, we will add our reference corpus. Select "Tool Preferences" at the top of your screen.
 
 ![keywordlist1](https://user-images.githubusercontent.com/57447342/81733839-7c773f00-9447-11ea-8369-c2b8e5b5ced9.png)
 
@@ -268,7 +268,7 @@ Click on "Keyword List" in the left-hand column.
 
 ![keywordlists2](https://user-images.githubusercontent.com/57447342/81733842-7e410280-9447-11ea-81c2-bc9fe30cdefe.png)
 
-Click add file.
+Click "Add File".
 
 ![keywordlists3](https://user-images.githubusercontent.com/57447342/81733850-800ac600-9447-11ea-84b4-dcc13bb0a126.png)
 
@@ -284,7 +284,7 @@ Hit "Apply".
 
 ![keywordlists6](https://user-images.githubusercontent.com/57447342/81733861-8436e380-9447-11ea-9fc7-2e9aeddeed20.png)
 
-These documents will now show up on the left side of the interface like they would if we loaded them as we did earlier in this tutorial - that’s normal.
+These documents will not show up on the left side of the interface like they would if we loaded them as we did earlier in this tutorial - that’s normal.
 Next, make sure to load the American corpus like we did at the beginning. After hitting "Apply" and loading the American corpus, your interface should look like this.
 
 ![keywordlists7](https://user-images.githubusercontent.com/57447342/81733866-85681080-9447-11ea-9f42-8055f9bb1b4f.png)
@@ -293,7 +293,7 @@ Now hit the "Start" button one more time. Your results should look like this:
 
 ![keywordlists8](https://user-images.githubusercontent.com/57447342/81733870-8731d400-9447-11ea-8352-0bb9332dd029.png)
 
-In simple terms, this is a list of words that appears more in your research corpus than in the corpora it is being compared to, that is words that are statistically more unexpected in your corpus when compared with the reference. Antconc establishes the statistical significance by using a concept called “keyness.” Keyness is “the frequency of a word in the text when compared with its frequency in a reference corpus, ‘such that the statistical probability as computed by an appropriate procedure is smaller than or equal to a p value specified by the user’” (definition from the Programming Historian). The automatic Antconc setting is that words with a p-value less than or equal to 0.05 will be displayed, which is the norm for establishing statistical significance; however, if you want, you can change the p-value in the Tool Preferences > Keyword List, along with other statistical elements like stastic threshold, effect size meansure, and effect size threshold.
+In simple terms, this is a list of words that appears more in your research corpus than in the corpora it is being compared to, that is words that are statistically more unexpected in your corpus when compared with the reference. Antconc establishes the statistical significance by using a concept called “keyness.” Keyness is “the frequency of a word in the text when compared with its frequency in a reference corpus, ‘such that the statistical probability as computed by an appropriate procedure is smaller than or equal to a p value specified by the user’” (definition from the Programming Historian). The automatic Antconc setting is that words with a p-value less than or equal to 0.05 will be displayed, which is the norm for establishing statistical significance; however, if you want, you can change the p-value in "Tool Preferences" > "Keyword List", along with other statistical elements like stastic threshold, effect size meansure, and effect size threshold.
 
 ![keywordlists9](https://user-images.githubusercontent.com/57447342/81733882-8ac55b00-9447-11ea-895e-e457e5d20ef1.png)
 
@@ -307,7 +307,7 @@ First, as mentioned earlier, it is important to ensure that corpora are represen
 
 Second, do not discount minor words. Words like "a", "an", and "the" are some of the most common in the English language. As such, they tend to be overrepresented in topic modeling ("an unsupervised machine learning technique that’s capable of scanning a set of documents, detecting word and phrase patterns within them, and automatically clustering word groups and similar expressions that best characterize a set of documents" - definition from [here](https://monkeylearn.com/blog/introduction-to-topic-modeling/). While such words may seem unimportant on the surface, the differences between a definite and an indefinite article or places where "not" is used may prove illuminating, and computers are very good at picking up patterns, especially high frequency patterns that might overwhelm someone attempting to track them by hand. However, it is possible to create a stopword list if necessary, although it is not advisable simply to discount minor words because of their perceived unimportance. Computers are very good at picking up patterns, especially high frequency patterns that might overwhelm someone attempting to track them by hand. 
 
-Third, as in any research project, it is essential to ask what kinds of questions are meaningful based on the data and results. This may include thinking about why two corpora can or should be compared (for example, geographically? temporally?) or investigating peculiarities that arise from the data (for example, why the word "women" appears more often than the word "men" or why one word appears more frequently than others). At the end of the day, Antconc is only as powerful as the questions you ask about the data!
+Third, as in any research project, it is essential to ask what kinds of questions are meaningful based on the data and results. This may include thinking about why two corpora can or should be compared (for example, geographically? temporally?) or investigating peculiarities that arise from the data (for example, why the word "women" appears more often than the word "men"). At the end of the day, Antconc is only as powerful as the questions you ask about the data!
 
 In sum, it is important to think about:
 * Why two corpora should be compared

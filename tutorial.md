@@ -19,6 +19,7 @@
               6. ["|"](#The-Or-Operator)
               7. [Combining search operators](#Combining-operators)
               8. [Exporting data from search operators](#Exporting-Data-from-Search-Operators)
+         2. [Stopword lists](#Stopword-Lists)
     3. [Concordance plots](#Applications-Concordance-Plots)
     4. [File view](#Applications-File-View)
     5. [Clusters/N-Grams](#Applications-ClustersN-Grams)
@@ -193,6 +194,10 @@ It will save the results as antconc_results:
 The file will then be saved as a .txt file, which opens up the door for further analysis!
 
 ![searchoperators11](https://user-images.githubusercontent.com/57447342/81733950-a29cdf00-9447-11ea-88cd-e9aeddcb231e.png)
+
+### Stopword Lists
+
+Suppose that you didn't want to see words like "a", "an", or "the" when looking at KWICs. Antconc allows you to create a stopword ist. Antconc will remove any words on your stopword list from the search results. To create a stopword list, click on "Tool Preferences" at the top of the interface.
 
 ## Applications: Concordance Plots
 

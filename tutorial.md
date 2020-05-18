@@ -156,9 +156,9 @@ Let’s say you wanted to find every instance of one or another word. You can us
 
 ![searchoperators7](https://user-images.githubusercontent.com/57447342/81733940-9d3f9480-9447-11ea-8e00-e5b3bdbb832e.png)
 
-This shows you every occurence of either "men" or "women", a total of 75 (found at the top of the interface next to “Concordance Hits”). Now search for "men" and "women" separately; there are 27 instances of "men" and 48 of "women". This is rather counterintuitve, and investigating this would make a great research question!
+This shows you every occurence of either "men" or "women", a total of 75 (found at the top of the interface next to “Concordance Hits”). Now search for "men" and "women" separately; there are 27 instances of "men" and 48 of "women". This is rather counterintuitve, and an investigation into this phenomenon would make the beginnings of a great research question!
 
-### Combining Operators
+#### Combining Operators
 
 Suppose you wanted to find all the instances of "man" or "woman" or "men" or "women". Good news: Antconc can do that by combining operators! Try entering "m?n|wom?n" into the search bar in the Concordances view and pressing "Start". Your results should look like this:
 
@@ -166,7 +166,7 @@ Suppose you wanted to find all the instances of "man" or "woman" or "men" or "wo
 
 You can mix and match search operators as needed.
 
-### Exporting Data from Search Operators 
+#### Exporting Data from Search Operators 
 
 Suppose that you found some really interesting results when you compared the words men and woman using one of the search operators and want to do further work with the data. You can export your results into a .txt file. First, make sure your data is sorted in a meaningful way that will be helpful. Then click on File:
 

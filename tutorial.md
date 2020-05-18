@@ -150,11 +150,15 @@ This search result finds all occurrences of "me" (zero characters) as well as an
 
 #### The "At" Operator
 
-The "@" operator allows you to account for words that may appear between two words that you are interested in. This is easiest to see in an example. You can put as many "@" operators as you like; however, if you put one, it will be equivalent to the "#" operator, which is in the next section. In this example, we will input the phrase "is@@president". This will give us any phrases in the form of "is any word #1 any word #2 president". The output will look like this:
+The "@" operator allows you to account for words that may appear between two words that you are interested in. This is easiest to see in an example. You can put as many "@" operators as you like; however, if you put one, it will be equivalent to the "#" operator, which is in the next section. In this example, we will input the phrase "is@@president" and hit "Start". This will give us any phrases in the form of "is any word #1 any word #2 president". The output will look like this:
 
-
+![searchoperators13](https://user-images.githubusercontent.com/57447342/82178007-e0f32d80-988f-11ea-91a1-0ecac89123d1.png)
 
 #### The "Pound" Operator
+
+The "#" operator functions like the "@" operator, but can only be used once. Enter "is#president" and hit "Start". The output will look like this:
+
+![searchoperators14](https://user-images.githubusercontent.com/57447342/82178010-e2bcf100-988f-11ea-8908-234324dc76b3.png)
 
 #### The "Or" Operator
 

@@ -17,7 +17,7 @@
               4. "@"
               5. "#"
               6. "|"
-              7. [Combining search operators](#Combining-search-operators)
+              7. [Combining search operators](#Combining-operators)
               8. Exporting data from search operators
     3. [Concordance plots](#Applications-Concordance-Plots)
     4. [File view](#Applications-File-View)

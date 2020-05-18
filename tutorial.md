@@ -168,7 +168,7 @@ You can mix and match search operators as needed.
 
 #### Exporting Data from Search Operators 
 
-Suppose that you found some really interesting results when you compared the words "man" and "woman" using one of the search operators and want to do further work with the data. You can export your results into a .txt file. First, make sure your data is sorted in a meaningful way that will be helpful. Then click on File:
+Suppose that you found some really interesting results when you compared the words "man" and "woman" using one of the search operators and want to do further work with the data. You can export your results into a .txt file. First, make sure your data is sorted in a meaningful way that will be helpful. In this example, it would probably be most helpful to have the words around your KWIC, as you might want to investigate why one appears more frequently than the other. Then click on File:
 
 ![searchoperators9](https://user-images.githubusercontent.com/57447342/81733946-9fa1ee80-9447-11ea-8b81-80c3bd6a85b8.png)
 
@@ -188,7 +188,9 @@ The file will then be saved as a .txt file, which opens up the door for further 
 
 Concordance plots will calculate how often a word appears in each file from the directory and then output a graph showing each place that word appears in the document. Make sure you have clicked Concordance Plots at the top of your screen. Enter "law" in the search bar and hit "Start".
 
-![concordanceplots](https://user-images.githubusercontent.com/57447342/81733801-6f5a5000-9447-11ea-9c00-c3155f209a8d.png)
+![concordanceplots](https://user-images.githubusercontent.com/57447342/82176133-b94d9680-988a-11ea-85de-751b7ea5cd09.png)
+
+This tool tends to be more helpful for literature, particularly for tracking certain characters or phrases, although the visualizing measures certainly don't hurt in this study. The ability to visually see where certain words appear most frequently can reveal particularly fruitful places to focus your attention on. This data can be exported, although it exports as a .ps file.
 
 ## Applications: File View
 

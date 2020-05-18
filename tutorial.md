@@ -11,7 +11,7 @@
     1. [Word list](#Applications-Word-List)
     2. [Concordance](#Applications-Concordance)
         1. Search operators
-              1. ["*"](#The-"Star"-Operator-(Wildcard))
+              1. ["*"](#The-Star-Operator-(Wildcard))
               2. ["?"](#The-Question-Mark-Operator)
               3. "+"
               4. "@"

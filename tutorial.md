@@ -56,19 +56,19 @@ This is what Antconc looks like when it launches:
 
 ## Loading Corpora
 
-We want to open the documents that we will be evaluating. However, for this tutorial, rather than opening each file one by one, we want to open the entire directory. Click "File   the top of the interface:
+We want to open the documents that we will be evaluating. However, for this tutorial, rather than opening each file one by one, we want to open the entire directory. Click "File at the top of the interface:
 
 ![loadingcorpora2](https://user-images.githubusercontent.com/57447342/81733897-8e58e200-9447-11ea-9d08-096978f01ff3.png)
 
-Next, click "pen Dir":
+Next, click "Open Dir":
 
 ![loadingcorpora3](https://user-images.githubusercontent.com/57447342/81733905-9022a580-9447-11ea-9b28-5dd0c91c902f.png)
 
-You can store the documents wherever on your computer you want (I usually keep mine in a Bryn Mawr folder), but I would recommend storing them on your Desktop for this tutorial. Navigate to desktop on the menu, click on the Antconc Documents folder, and then hit OK. 
+You can store the documents wherever on your computer you want (I usually keep mine in a Bryn Mawr folder), but I would recommend storing them on your Desktop for this tutorial. Navigate to desktop on the menu, click on the Antconc Documents folder, and then hit "OK". 
 
 ![opendir](https://user-images.githubusercontent.com/57447342/81733908-91ec6900-9447-11ea-92e9-c5d421de3a88.png)
 
-This should load 16 files - you can see how many files have been opened in the Total No. box at the bottom left of your screen.
+This should load 16 files - you can see how many files have been opened in the "Total No." box at the bottom left of the interface.
 
 ![loadingcorpora](https://user-images.githubusercontent.com/57447342/81733890-8c8f1e80-9447-11ea-9961-e4ee90265963.png)
 
@@ -80,7 +80,7 @@ The word list is a simple, yet powerful tool. Navigate to the Word List tab on t
 
 ![wordlist1](https://user-images.githubusercontent.com/57447342/81733958-a6306600-9447-11ea-86fb-e987180aa88e.png)
 
-Click start at the bottom of your screen, underneath the search box, without entering a search term:
+Click "Start" at the bottom of the interface, underneath the search box, without entering a search term:
 
 ![wordlist2](https://user-images.githubusercontent.com/57447342/81733962-a7619300-9447-11ea-8d13-a16f94398bbb.png)
 
@@ -88,13 +88,13 @@ This will generate a list of every single word that appears in the corpus, along
 
 ![wordlist3](https://user-images.githubusercontent.com/57447342/81733964-a892c000-9447-11ea-9240-af2259eb2876.png)
 
-Unsurprisingly, words like the, of, and a are incredibly common. More substantive words appear further down the frequency list.
+Unsurprisingly, words like "the", "of", and "a" are incredibly common. More substantive words appear further down the frequency list.
 
 ## Applications: Concordance
 
 While the word list is a helpful first step, especially for gaining a broad overview, you may want to view the frequency and context of a specific word. The Concordance tool allows you to do this.
 
-Make sure you have clicked Concordance at the top of the interface.
+Make sure you have clicked the "Concordance" tab at the top of the interface.
 
 In the search box at the bottom, type the word "shall" and hit "Start". This will show you **Key Words in Context (KWIC)**, that is every single time that a specific word appears, as well as a certain number of words on either side. 
 
@@ -108,11 +108,11 @@ This will sort the data alphabetically, if it isn’t already. If you want more 
 
 ![concordancew3](https://user-images.githubusercontent.com/57447342/82173710-10e80400-9883-11ea-835d-87676b478614.png)
 
-L means left and R means right, while the number indicates how many words to the left or right; the standard is 1L (first word to the left), 2R (second word to the right), 3R (third word to the right). This will list the data in alphabetical order by the first highlighted word (here, 1L). You can adjust as you need to. For example, you may want to go further to the left in order to capture specific phrases. If you don’t want any sorting data, you can leave it on the standard setting or set all three to 0. 
+L means left and R means right, while the number indicates how many words to the left or right of your KWIC will be highlighted; the standard is 1L (first word to the left), 2R (second word to the right), 3R (third word to the right). This will list the data in alphabetical order by the first highlighted word (here, 1L). You can adjust as you need to. For example, you may want to go further to the left in order to capture specific phrases. If you don’t want any sorting data, you can leave it on the standard setting or set all three to 0. 
 
 ### Search Operators
 
-Search operators offer more flexibility in searches for KWICs than the Concordance tool. For example, there are search operators to find the singular or plural form of a word or for finding all the words built off a certain stem rather than having to do individual searches for each word. To view all the possible search operators, go to Global Settings > Wildcards.
+Search operators offer more flexibility in searches for KWICs than the Concordance tool. For example, there are search operators to find the singular or plural form of a word or for finding all the words built off a certain stem rather than having to do individual searches for each word. To view all the possible search operators, go to "Global Settings" > "Wildcards".
 
 ![searchoperators1](https://user-images.githubusercontent.com/57447342/81733911-93b62c80-9447-11ea-96ce-47a75017dc3f.png)
 
@@ -122,17 +122,17 @@ We will talk about each of these more in depth.
 
 #### The "Star" Operator (Wildcard)
 
-The "* " operator, which finds zero or more characters, can be particularly helpful in finding both the singular and plural forms of a noun. 
+The * operator, which finds zero or more characters, can be particularly helpful in finding both the singular and plural forms of a noun. 
 
 In the Concordance tool, type "qualit*" into the search bar and hit "Start". Your results should look like this:
 
 ![searchoperators3](https://user-images.githubusercontent.com/57447342/81733925-96b11d00-9447-11ea-90ac-0543d4648f31.png)
 
-Thus, we get the word "quality" (one character), but also "qualities" (three characters) and "qualitative" (five characters). These are each different words; as a result, they will be surrounded by different words and used in different ways.
+Thus, we get the word "quality" (one character in addition to the stem qualit), but also "qualities" (three characters in addition to the stem qualit) and "qualitative" (five characters in addition to the stem qualit). These are each different words; as a result, they will be surrounded by different words, and used in different ways.
 
 #### The "Question Mark" Operator
 
-The "?" operator functions similarly to the "* " operator, but the "?" is more specific than "* " operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordances view and hit "Start".  This search will give you these results:
+The "?" operator functions similarly to the * operator, but the "?" is more specific than * operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordances view and hit "Start".  This search will give you these results:
 
 ![searchoperators4](https://user-images.githubusercontent.com/57447342/81733931-987ae080-9447-11ea-9362-d1a71f2c3955.png)
 
@@ -149,6 +149,10 @@ The "+" operator finds zero or one character. Enter "me+" into the search bar in
 This search result finds all occurrences of "me" (zero characters) as well as any occurrences of "me" and one other letter (for example, "men", "met" etc).
 
 #### The "At" Operator
+
+The "@" operator allows you to account for words that may appear between two words that you are interested in. This is easiest to see in an example. You can put as many "@" operators as you like; however, if you put one, it will be equivalent to the "#" operator, which is in the next section. In this example, we will input the phrase "is@@president". This will give us any phrases in the form of "is any word #1 any word #2 president". The output will look like this:
+
+
 
 #### The "Pound" Operator
 

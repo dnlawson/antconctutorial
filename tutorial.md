@@ -110,7 +110,7 @@ L means left and R means right, while the number indicates how many words to the
 
 ### Search Operators
 
-Search operators allow you to search in ways that are not possible with the other tools. For example, there are search operators to find the singular or plural form or finding all the words built off a certain stem rather than having to do individual searches for each word. To view all the possible search operators, go to Global Settings > Wildcards.
+Search operators offer more flexibility in searches for KWICs than the Concordance tool. For example, there are search operators to find the singular or plural form of a word or for finding all the words built off a certain stem rather than having to do individual searches for each word. To view all the possible search operators, go to Global Settings > Wildcards.
 
 ![searchoperators1](https://user-images.githubusercontent.com/57447342/81733911-93b62c80-9447-11ea-96ce-47a75017dc3f.png)
 
@@ -120,7 +120,7 @@ We will talk about each of these more in depth.
 
 #### The "Star" Operator (Wildcard)
 
-The * operator, which finds zero or more characters, can be particularly helpful in finding both the singular and plural forms of a noun. 
+The "*" operator, which finds zero or more characters, can be particularly helpful in finding both the singular and plural forms of a noun. 
 
 In the Concordance tool, type qualit* into the search bar and hit Start. Your results should look like this:
 

@@ -29,11 +29,9 @@
 
 ## Introduction to Corpus Analysis and Antconc
 
-Corpus analysis is a form of text analysis that allows us to compare textual objects “from a distance.” In many ways, corpus analysis is the opposite of a close reading. In a close reading, a small portion of text is looked at and evaluated at a minute level; in Classics, this often means paying special attention to the specific forms of words or meter. In sum, every single bit of a small chunk of text is picked apart down to the smallest detail. On the other hand, corpus analysis focuses instead on a much larger body of text; for example, one author’s entire literary corpus. The focus here is instead on finding large patterns, such as common grammatical usages or frequently used words. The smaller details are less important, and the focus is on the larger, overarching patterns that are present. Corpus analysis is incredibly helpful in distinguishing patterns that the human eye might not pick up on, but that could raise important research questions about the text. However, corpus analysis is also a good way to confirm intuitions or gut instincts that we have about a text. For example, I took a course on Plato & Thucydides my first semester of grad school. We read Book 6 of Thucydides, in which the Athenians are debating whether or not to aid the Sicilians who have asked for their help. The book is presented as a series of speeches between Alcibiades and Nicias. One of my classmates asked whether or not the increased complexity of Nicias’ grammar and syntax was a reflection of his cautious and indecisive character. We read an article, written in the 70s, that argued exactly that (for those interested, the article is *Stylistic characterization in Thucydides: Nicias and Alcibiades* by Daniel Tompkins. While this article was published well before Digital Humanities became an established discipline, the author used many techniques that are now commonplace in Digital Humanities; in fact, Antconc would have been particularly useful for this kind of project.
-Antconc is a standalone software package for the linguistic analysis of texts. It mediates between the simplicity of a tool like Voyant and the complexity of Python and R programming. It is freely available and runs on Windows, Mac OS, and Linux. The creator, Anthony Laurence, is excellent at maintaining the software, making it a powerful tool for any level of experience.
-In this tutorial, you will:
-* Learn the basic applications of Antconc
-* Think about how to generate research questions from that data that you have collected
+Corpus analysis is a form of text analysis that allows us to compare textual objects “from a distance.” In many ways, corpus analysis is the opposite of a close reading. In a close reading, a small portion of text is looked at and evaluated at a minute level; in Classics, this often means paying special attention to the specific forms of words or meter. In sum, every bit of a small chunk of text is picked apart in detail. On the other hand, corpus analysis focuses instead on a much larger amount of text; for example, one author’s entire literary corpus. The focus here is instead on finding large-scale patterns, such as common grammatical usages or frequently used words. Corpus analysis is incredibly helpful in distinguishing patterns that the human eye might not pick up on, but that could raise important research questions about the text. However, corpus analysis is also a good way to confirm intuitions or gut instincts that we have about a text. For example, I took a course on Plato & Thucydides my first semester of grad school. We read Book 6 of Thucydides, in which the Athenians are debating whether or not to aid the Sicilians who have asked for their help. The book is presented as a series of speeches between Alcibiades and Nicias. One of my classmates asked whether or not the increased complexity of Nicias’ grammar and syntax was a reflection of his cautious and indecisive character. We read an article, written in the 70s, that argued exactly that (for those interested, the article is *Stylistic characterization in Thucydides: Nicias and Alcibiades* by Daniel Tompkins. While this article was published well before Digital Humanities became an established discipline, the author used many techniques that are now commonplace in Digital Humanities; in fact, Antconc would have been particularly useful for this kind of project.
+
+Antconc is a standalone software package for the linguistic analysis of texts. It offers more features than a tool like Voyant, but is much simpler than coding in R or Python. It is free to download and use and runs on Windows, Mac OS, and Linux. The creator, Anthony Laurence, is excellent at maintaining the software, making it a powerful tool for any level of experience.
 
 ## Tutorial Downloads
 
@@ -46,7 +44,7 @@ The first important thing to note about Antconc is that it will only work with p
 
 Plain-text editors include Notepad (on Windows; this is what I use) or TextEdit (on Mac). Other free text editor options with more advanced features include Notepad++ (Windows) and TextWrangler (Mac).
 
-In order to construct a corpus, you would have to go to where your data is stored and then copy and paste it into a .txt file. This process would then have to be repeated for each file. Corpus construction is a time-consuming task and an art in its own right. We will be using a premade corpus consisting of the constitutions/governing documents of different countries. This is a corpus that I have constructed on my own; as such, it is not the cleanest data ever (I DO INTEND TO GO BACK AND CLEAN THIS DATA). If you are interested in cleaning data, please see Antconc's tutorial on data cleaning with OpenRefine [here](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine).
+In order to construct a corpus, you would have to go to where your data is stored and then copy and paste it into a .txt file. This process would then have to be repeated for each file. Corpus construction is a time-consuming task and an art in its own right. We will be using a premade corpus consisting of the constitutions/governing documents of different countries. This is a corpus that I have constructed on my own; as such, it is not the cleanest data ever. If you are interested in cleaning data, please see Antconc's tutorial on data cleaning with OpenRefine [here](https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine).
 
 ## The Antconc Interface
 
@@ -96,7 +94,7 @@ While the word list is a helpful first step, especially for gaining a broad over
 
 Make sure you have clicked Concordance at the top of the interface.
 
-In the search box at the bottom, type the word shall and hit start. This will show you **Key Words in Context**, that is every single time that a specific word appears, as well as a certain number of words on either side. 
+In the search box at the bottom, type the word "shall" and hit "Start". This will show you **Key Words in Context (KWIC)**, that is every single time that a specific word appears, as well as a certain number of words on either side. 
 
 ![concordancew](https://user-images.githubusercontent.com/57447342/81733809-71bcaa00-9447-11ea-90f0-f6b2851b35ce.png)
 
@@ -104,15 +102,15 @@ Depending on the word you search for, the data may be overwhelming. It may be he
 
 ![concordancew2](https://user-images.githubusercontent.com/57447342/81733814-73866d80-9447-11ea-9848-1f100f9e8256.png)
 
-This will sort the data alphabetically, if it isn’t already. If you want more or different information, you can change the parameters indicated below.
+This will sort the data alphabetically, if it isn’t already. If you want more or different information about the words surrounding your KWIC, you can change the parameters indicated below.
 
 ![concordancew3](https://user-images.githubusercontent.com/57447342/81733821-75503100-9447-11ea-979d-cdca44c467bd.png)
 
-L means left and R means right. While the standard is 1L, 2R, 3R, you can adjust as you need to. For example, you may want to go further to the left in order to capture specific phrases. If you don’t want any sorting data, you can leave it on the standard setting or set all three to 0. 
+L means left and R means right, while the number indicates how many words to the left or right. The standard is 1L (first word to the left), 2R (second word to the right), 3R (third word to the right), although you can adjust as you need to. For example, you may want to go further to the left in order to capture specific phrases. If you don’t want any sorting data, you can leave it on the standard setting or set all three to 0. 
 
 ## Search Operators
 
-To view all the possible search operators, go to Global Settings > Wildcards.
+Search operators allow you to search in ways that are not possible with the other tools. For example, there are search operators to find the singular or plural form or finding all the words built off a certain stem rather than having to do individual searches for each word. To view all the possible search operators, go to Global Settings > Wildcards.
 
 ![searchoperators1](https://user-images.githubusercontent.com/57447342/81733911-93b62c80-9447-11ea-96ce-47a75017dc3f.png)
 
@@ -128,45 +126,45 @@ In the Concordance tool, type qualit* into the search bar and hit Start. Your re
 
 ![searchoperators3](https://user-images.githubusercontent.com/57447342/81733925-96b11d00-9447-11ea-90ac-0543d4648f31.png)
 
-Thus, we get the word quality, but also qualities and qualitative. These are each different words; as a result, they will be surrounded by different words.
+Thus, we get the word quality (one character), but also qualities (three characters) and qualitative (five characters). These are each different words; as a result, they will be surrounded by different words and used in different ways.
 
-### The ? Operator
+### The "?" Operator
 
-The ? operator functions similarly to the * operator, but ? is more specific than * since the ? operator only finds one character, rather than zero or more. For example, enter m * n in the search bar in the Concordances view.  This search will give you these results:
+The "?" operator functions similarly to the * operator, but the "?" is more specific than * operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordances view.  This search will give you these results:
 
 ![searchoperators4](https://user-images.githubusercontent.com/57447342/81733931-987ae080-9447-11ea-9362-d1a71f2c3955.png)
 
-On the other hand, enter m?n into the search bar in Concordances view and hit start. This search will give you these results:
+On the other hand, enter "m?n" into the search bar in Concordances view and hit start. This search will give you these results:
 
 ![searchoperators5](https://user-images.githubusercontent.com/57447342/81733932-9a44a400-9447-11ea-8087-1c2bce48f508.png)
 
-### The + Operator:
+### The "+" Operator:
 
-The + operator finds zero or one character. Enter me+ into the search bar in the Concordances view and press start. Your results should look like this:
+The + operator finds zero or one character. Enter "me+" into the search bar in the Concordances view and press start. Your results should look like this:
 
 ![searchoperators6](https://user-images.githubusercontent.com/57447342/81733934-9b75d100-9447-11ea-80f8-0687028237c3.png)
 
-This search result finds all occurrences of me (zero characters) as well as any occurrences of me and one other letter (for example, men, met etc).
+This search result finds all occurrences of "me" (zero characters) as well as any occurrences of "m"e and one other letter (for example, "men", "met" etc).
 
-### The @ Operator
+### The "@" Operator
 
-### The # Operator
+### The "#" Operator
 
-### The | Operator ("or")
+### The "|" Operator ("or")
 
-Let’s say you wanted to find every instance of one or another word. You can use the “or” search operator, |.  Let’s try men and women. In the Concordances view, type men|women into the search box and press start. Your results should look like this:
+Let’s say you wanted to find every instance of one or another word. You can use the “or” search operator, "|".  Let’s try "men" and "women". In the Concordances view, type "men|women" into the search box and press "Start". Your results should look like this:
 
 ![searchoperators7](https://user-images.githubusercontent.com/57447342/81733940-9d3f9480-9447-11ea-8e00-e5b3bdbb832e.png)
 
-This shows you every occurence of either men or women, a total of 75 (found at the top of the interface next to “Concordance Hits”). Now search for men and women separately; there are 27 instances of men and 48 of women. Asking why this is true is a great research question!
+This shows you every occurence of either "men" or "women", a total of 75 (found at the top of the interface next to “Concordance Hits”). Now search for "men" and "women" separately; there are 27 instances of "men" and 48 of "women". This is rather counterintuitve, and investigating this would make a great research question!
 
 ### Combining Operators
 
-Suppose you wanted to find all the instances of man or woman or men or women. Good news: Antconc can do that by combining operators! Try entering m?n|wom?n into the search bar in the Concordances view and pressing start. Your results should look like this:
+Suppose you wanted to find all the instances of "man" or "woman" or "men" or "women". Good news: Antconc can do that by combining operators! Try entering "m?n|wom?n" into the search bar in the Concordances view and pressing "Start". Your results should look like this:
 
 ![searchoperators8](https://user-images.githubusercontent.com/57447342/81733942-9e70c180-9447-11ea-9c6b-ab39ebe637bc.png)
 
-This will show you every single occurrence that contains man or woman or men or women. You can mix and match search operators as needed.
+You can mix and match search operators as needed.
 
 ### Exporting Data from Search Operators 
 
@@ -210,7 +208,9 @@ File view allows for more detail and contextualization than is afforded by, for 
 
 ## Applications: Clusters/N-Grams
 
-The clusters view shows words that frequently appear together. For example, say we wanted to know what words commonly appear with the word shall. Make sure you click Clusters/N-Grams tab at the top of the interface. Enter shall into the search box and hit start.
+The primary difference between clusters and N-Grams, besides the variable length, is that clusters take a specific search term, while N-Grams do not take a search term and instead return any string of words of the length you requested.
+
+The "clusters" view shows words that frequently appear together. For example, say we wanted to know what words commonly appear with the word shall. Make sure you click Clusters/N-Grams tab at the top of the interface. Enter shall into the search box and hit start.
 
 ![clusters](https://user-images.githubusercontent.com/57447342/81733685-46d25600-9447-11ea-9616-c0aac990dd81.png)
 
@@ -226,11 +226,11 @@ Hit start (Antconc will not allow you to enter a search term). Depending on how 
 
 ![clusters4](https://user-images.githubusercontent.com/57447342/81733700-4d60cd80-9447-11ea-98bb-e00672a7d2b9.png)
 
-The primary difference between clusters and N-Grams, besides the variable length, is that clusters take a specific search term, while N-Grams do not take a search term and instead return any string of words of the length you requested.
-
 ## Applications: Collocates
 
-The collocates view gives you a list of the words that are most likely to appear with your keyword. Click Collocates at the top of your screen. Enter shall and hit start. Antconc will tell you that you need to generate a word list first. We generated one earlier in this tutorial. However, if you are using Antconc and don’t want to generate a word list first, hit okay and it will generate one for you.
+Clusters and collocates may seem to be the same thing. They are, indeed, very similar; however, clusters show words that definitely appear together, while collocates shows words that are statistically likely to appear next to one another.
+
+The collocates view gives you a list of the words that are most likely to appear with your keyword. Click Collocates at the top of your screen. Enter shall and hit start. Antconc will tell you that you need to generate a word list first. We generated one earlier in this tutorial, so Antconc will automatically use that one. However, if you are using Antconc and didn't generate a word list first, hit okay and it will generate one for you.
 
 ![collocates1](https://user-images.githubusercontent.com/57447342/81733710-4f2a9100-9447-11ea-91c5-8c11a4f352ba.png)
 
@@ -242,11 +242,9 @@ Like concordance, you can decide what parameters you want your data sorted by.
 
 You can sort by word, which alphabetizes the list of words; by word end, which alphabetizes the list of words by the last letter of the word; by freq, which orders the list by the total number of times the word occurs; freq(L) and freq(R), which orders the list of words by how often the word appears to the left of and to the right of the keyword respectively; and by stat, which DOES SOMETHING.
 
-Clusters and collocates may seem to be the same thing. They are, indeed, very similar; however, clusters show words that definitely appear together, while collocates shows words that are statistically likely to appear next to one another.
-
 ## Applications: Keyword Lists
 
-The keyword list is arguably Antconc’s most powerful and important function because it allows one corpus to be compared to a larger, reference corpus. It is also by and far the most complex tool that Antconc offers. 
+The keyword list is arguably Antconc’s most powerful and important function because it allows one corpus to be compared to a larger, reference corpus. It is also by far the most complex tool that Antconc offers. 
 
 It is important to think about what your research corpus should or could look like. In this example, options might be comparing two constitutions. However, that is a rather small research corpus. Other examples could include comparing different geographical areas or comparing the governing documents of one country across time. Once again, it is important to remember that corpus construction is a sub-field in its own right. While we will be comparing North American constitutions to European constitutions, it is worthwhile to think about how and why we construct and define corpora in certain ways. 
 
@@ -254,7 +252,7 @@ Select Tool Preferences at the top of your screen.
 
 ![keywordlist1](https://user-images.githubusercontent.com/57447342/81733839-7c773f00-9447-11ea-8369-c2b8e5b5ced9.png)
 
-Click on Keyword List in the left-hand column.
+Click on "Keyword List" in the left-hand column.
 
 ![keywordlists2](https://user-images.githubusercontent.com/57447342/81733842-7e410280-9447-11ea-81c2-bc9fe30cdefe.png)
 

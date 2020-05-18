@@ -197,7 +197,7 @@ The file will then be saved as a .txt file, which opens up the door for further 
 
 ### Stopword Lists
 
-Suppose that you didn't want to see words like "a", "an", or "the" when looking at KWICs. Antconc allows you to create a stopword ist. Antconc will remove any words on your stopword list from the search results. To create a stopword list, click on "Tool Preferences" at the top of the interface.
+Suppose that you didn't want to see words like "a", "an", or "the" when looking at KWICs. Antconc allows you to create a stopword list. Antconc will remove any words on your stopword list from the search results. To create a stopword list, click on "Tool Preferences" at the top of the interface.
 
 ![stopwordlist1](https://user-images.githubusercontent.com/57447342/82180025-86a89b80-9894-11ea-8507-1ab6d1bc239f.png)
 

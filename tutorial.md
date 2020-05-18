@@ -11,8 +11,8 @@
     1. [Word list](#Applications-Word-List)
     2. [Concordance](#Applications-Concordance)
         1. Search operators
-              1. "* "
-              2. ["?"](#The-Question-Mark-("?")-Operator)
+              1. "*"
+              2. ["?"](#The-Question-Mark-Operator)
               3. "+"
               4. "@"
               5. "#"
@@ -108,7 +108,7 @@ This will sort the data alphabetically, if it isn’t already. If you want more 
 
 L means left and R means right, while the number indicates how many words to the left or right. The standard is 1L (first word to the left), 2R (second word to the right), 3R (third word to the right), although you can adjust as you need to. For example, you may want to go further to the left in order to capture specific phrases. If you don’t want any sorting data, you can leave it on the standard setting or set all three to 0. 
 
-## Search Operators
+### Search Operators
 
 Search operators allow you to search in ways that are not possible with the other tools. For example, there are search operators to find the singular or plural form or finding all the words built off a certain stem rather than having to do individual searches for each word. To view all the possible search operators, go to Global Settings > Wildcards.
 
@@ -118,7 +118,7 @@ Search operators allow you to search in ways that are not possible with the othe
 
 We will talk about each of these more in depth.
 
-### The * Operator (Wildcard)
+#### The Star Operator (Wildcard)
 
 The * operator, which finds zero or more characters, can be particularly helpful in finding both the singular and plural forms of a noun. 
 
@@ -128,7 +128,7 @@ In the Concordance tool, type qualit* into the search bar and hit Start. Your re
 
 Thus, we get the word quality (one character), but also qualities (three characters) and qualitative (five characters). These are each different words; as a result, they will be surrounded by different words and used in different ways.
 
-### The Question Mark ("?") Operator
+#### The "Question Mark" Operator
 
 The "?" operator functions similarly to the * operator, but the "?" is more specific than * operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordances view.  This search will give you these results:
 
@@ -138,7 +138,7 @@ On the other hand, enter "m?n" into the search bar in Concordances view and hit 
 
 ![searchoperators5](https://user-images.githubusercontent.com/57447342/81733932-9a44a400-9447-11ea-8087-1c2bce48f508.png)
 
-### The "+" Operator:
+#### The "Plus" Operator:
 
 The + operator finds zero or one character. Enter "me+" into the search bar in the Concordances view and press start. Your results should look like this:
 
@@ -146,11 +146,11 @@ The + operator finds zero or one character. Enter "me+" into the search bar in t
 
 This search result finds all occurrences of "me" (zero characters) as well as any occurrences of "m"e and one other letter (for example, "men", "met" etc).
 
-### The "@" Operator
+#### The "At" Operator
 
-### The "#" Operator
+#### The "Pound" Operator
 
-### The "|" Operator ("or")
+#### The "Or" Operator
 
 Let’s say you wanted to find every instance of one or another word. You can use the “or” search operator, "|".  Let’s try "men" and "women". In the Concordances view, type "men|women" into the search box and press "Start". Your results should look like this:
 

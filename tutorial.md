@@ -10,8 +10,8 @@
 6. Applications
     1. [Word list](#Applications-Word-List)
     2. [Concordance](#Applications-Concordance)
-        1. Search operators
-              1. *
+           1. Search operators
+              1. "* "
               2. ["?"](#The-Question-Mark-("?")-Operator)
               3. "+"
               4. "@"

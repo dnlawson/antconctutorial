@@ -128,7 +128,7 @@ In the Concordance tool, type qualit* into the search bar and hit Start. Your re
 
 Thus, we get the word quality (one character), but also qualities (three characters) and qualitative (five characters). These are each different words; as a result, they will be surrounded by different words and used in different ways.
 
-### The Question Mark Operator
+### The Question Mark ("?") Operator
 
 The "?" operator functions similarly to the * operator, but the "?" is more specific than * operator since the "?" operator only finds one character, rather than zero or more. For example, enter "m * n" in the search bar in the Concordances view.  This search will give you these results:
 

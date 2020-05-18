@@ -18,7 +18,7 @@
               5. "#"
               6. "|"
               7. [Combining search operators](#Combining-operators)
-              8. Exporting data from search operators
+              8. [Exporting data from search operators](#Exporting-Data-from-Search-Operators)
     3. [Concordance plots](#Applications-Concordance-Plots)
     4. [File view](#Applications-File-View)
     5. [Clusters/N-Grams](#Applications-ClustersN-Grams)

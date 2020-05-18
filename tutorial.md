@@ -36,7 +36,7 @@ Antconc is a standalone software package for the linguistic analysis of texts. I
 ## Tutorial Downloads
 
 1. Software: Download Antconc from Laurence Anthony’s website [here](http://www.laurenceanthony.net/software/antconc/). It may be necessary to unzip the file. After the download is complete, launch the application. For reference, in this tutorial, I am using Antconc version 3.5.8 for Windows.
-2. Corpus: We will be using a corpus I constructed made up of governing documents, primarily constitutions, from various countries. You can download the corpus here.
+2. Corpus: We will be using a corpus I constructed made up of governing documents, primarily constitutions, from various countries. You can download the corpus [here](https://github.com/dnlawson/antconctutorial/issues/1#issue-619833285).
 
 ## Working with Plain Text Files
 

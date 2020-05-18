@@ -106,7 +106,7 @@ This will sort the data alphabetically, if it isn’t already. If you want more 
 
 ![concordancew3](https://user-images.githubusercontent.com/57447342/81733821-75503100-9447-11ea-979d-cdca44c467bd.png)
 
-L means left and R means right, while the number indicates how many words to the left or right. The standard is 1L (first word to the left), 2R (second word to the right), 3R (third word to the right), although you can adjust as you need to. For example, you may want to go further to the left in order to capture specific phrases. If you don’t want any sorting data, you can leave it on the standard setting or set all three to 0. 
+L means left and R means right, while the number indicates how many words to the left or right; the standard is 1L (first word to the left), 2R (second word to the right), 3R (third word to the right). This will list the data in alphabetical order by the first highlighted word (here, 1L). You can adjust as you need to. For example, you may want to go further to the left in order to capture specific phrases. If you don’t want any sorting data, you can leave it on the standard setting or set all three to 0. 
 
 ### Search Operators
 
